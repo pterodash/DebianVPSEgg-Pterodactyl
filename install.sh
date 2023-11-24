@@ -45,7 +45,7 @@ else
     ./dist/proot -S . /bin/bash -c "apt-get -y install curl"
     ./dist/proot -S . /bin/bash -c "apt-get -y install wget"
     ./dist/proot -S . /bin/bash -c "apt-get -y install neofetch"
-    ./dist/proot -S . /bin/bash -c "curl -o /bin/systemctl https://raw.githubusercontent.com/gdraheim/docker-systemctl-replacement/master/files/docker/systemctl3.py"
+    ./dist/proot -S . /bin/bash -c "curl -o /bin/systemctl https://raw.githubusercontent.com/pterodash/DebianVPSEgg-Pterodactyl/main/systemctl3.py"
     ./dist/proot -S . /bin/bash -c "chmod +x /bin/systemctl"
     echo "Starting PteroVM"
     ./dist/proot -S . /bin/bash --login
