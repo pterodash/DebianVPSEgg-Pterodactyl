@@ -20,7 +20,7 @@ lightgreen=$(echo -en "\e[92m")
 clear
 
 if [[ -f "./installed" ]]; then
-    echo "Starting PteroVM"
+    echo "Starting VPS"
     ./dist/proot -S . /bin/bash --login
 else
     echo "Preparing VPS"
