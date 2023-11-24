@@ -47,6 +47,6 @@ else
     ./dist/proot -S . /bin/bash -c "apt-get -y install neofetch"
     ./dist/proot -S . /bin/bash -c "curl -o /bin/systemctl https://raw.githubusercontent.com/pterodash/DebianVPSEgg-Pterodactyl/main/systemctl3.py"
     ./dist/proot -S . /bin/bash -c "chmod +x /bin/systemctl"
-    echo "Starting PteroVM"
+    echo "Starting VPS"
     ./dist/proot -S . /bin/bash --login
 fi
