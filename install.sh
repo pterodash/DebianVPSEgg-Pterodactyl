@@ -42,6 +42,7 @@ else
     ./dist/proot -S . /bin/bash -c "mv unzip /usr/bin/"
     ./dist/proot -S . /bin/bash -c "apt-get update"
     ./dist/proot -S . /bin/bash -c "apt-get -y upgrade"
+    ./dist/proot -S . /bin/bash -c "apt-get -y install python3"    
     ./dist/proot -S . /bin/bash -c "apt-get -y install curl"
     ./dist/proot -S . /bin/bash -c "apt-get -y install wget"
     ./dist/proot -S . /bin/bash -c "apt-get -y install neofetch"
