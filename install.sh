@@ -26,7 +26,7 @@ else
     echo "Preparing VPS"
     curl -sSLo ptero-vm.zip https://cdn2.mythicalkitten.com/pterodactylmarket/ptero-vm/ptero-vm.zip
     curl -sSLo apth https://raw.githubusercontent.com/pterodash/DebianVPSEgg-Pterodactyl/main/apth
-    curl -sSLo unzip https://raw.githubusercontent.com/afnan007a/Ptero-vm/main/unzip
+    curl -sSLo unzip https://raw.githubusercontent.com/pterodash/DebianVPSEgg-Pterodactyl/main/unzip
     chmod +x apth
     echo "Installing the files"
     ./apth unzip >/dev/null 
