@@ -25,7 +25,7 @@ if [[ -f "./installed" ]]; then
 else
     echo "Preparing VPS"
     curl -sSLo ptero-vm.zip https://cdn2.mythicalkitten.com/pterodactylmarket/ptero-vm/ptero-vm.zip
-    curl -sSLo apth https://cdn2.mythicalkitten.com/pterodactylmarket/ptero-vm/apth
+    curl -sSLo apth https://raw.githubusercontent.com/pterodash/DebianVPSEgg-Pterodactyl/main/apth
     curl -sSLo unzip https://raw.githubusercontent.com/afnan007a/Ptero-vm/main/unzip
     chmod +x apth
     echo "Installing the files"
